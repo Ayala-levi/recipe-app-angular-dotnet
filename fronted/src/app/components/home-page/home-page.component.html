@@ -1,0 +1,10 @@
+
+<div class="recipe-list">
+  @for(i of get();track $index){
+    <div class="recipe-card" (click)=goToMoreDetails(i.recipeId)>
+      <img [src]="'https://localhost:7062' + i.imageUrl" alt="{{i.name}}">
+      <h3>{{i.name}}</h3>
+      <p>קושי: {{i.difficultyLevel}}</p>
+    </div>
+  }
+</div>

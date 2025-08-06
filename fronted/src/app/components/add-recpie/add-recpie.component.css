@@ -1,0 +1,131 @@
+.add-recipe-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9; /* כמו רקע כרטיסיית הרישום */
+  border: 1px solid #ddd; /* כמו גבול כרטיסיית הרישום */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* צל עדין כמו בכרטיסיית הרישום */
+  direction: rtl;
+  font-family: 'Arial Hebrew', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color:#d87093;
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* קצת פחות רווח בין קבוצות שדות */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px; /* קצת פחות רווח בין שדות בשורה */
+}
+
+.form-row .half-width {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+  font-size: 0.95em;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  padding: 10px; /* קצת פחות פנימי */
+  border: 1px solid #ccc; /* כמו תיבות הטקסט ברישום */
+  border-radius: 4px;
+  font-size: 1em; /* גודל פונט דומה */
+  color: #333;
+  background-color: white; /* רקע לבן */
+  box-sizing: border-box; /* חשוב לגודל */
+  width: 100%; /* שדות רוחב מלא */
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #d87093; /* צבע פוקוס ורוד */
+  box-shadow: 0 0 0 2px rgba(216, 112, 147, 0.2); /* צל פוקוס ורוד עדין */
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+  background-repeat: no-repeat;
+  background-position: left 10px center; /* התאמת מיקום החץ */
+  padding-left: 30px; /* התאמת ריפוד */
+  padding-right: 10px;
+}
+
+select option[disabled] {
+  color: #aaa;
+}
+
+textarea {
+  min-height: 120px; /* גובה מינימלי מתאים יותר */
+  resize: vertical;
+}
+
+.form-group button { /* סגנון כפתור "הוסף רכיב חדש" */
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 0.9em;
+}
+
+.recipe-form button[type="button"]:not(.form-group button), /* סגנון לשאר כפתורי ה"באטן" בטופס */
+.submit-button {
+  background-color: #d87093;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+  width: 100%; /* תופס את כל הרוחב של הקונטיינר */
+  margin-top: 15px;
+  display: block; /* גורם להם לתפוס שורה מלאה */
+}
+
+.recipe-form button[type="button"]:not(.form-group button):hover,
+.submit-button:hover {
+  background-color: #f0b3c7;
+  transform: translateY(-1px);
+}
+
+.recipe-form button[type="button"]:not(.form-group button):active,
+.submit-button:active {
+  transform: translateY(0);
+}

@@ -1,0 +1,101 @@
+.recipe-details-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background-color: #ffffff;
+    max-width: 900px;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    direction: rtl; /* הופך את כיוון הטקסט לימין לשמאל */
+}
+
+.card-title {
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    justify-content: center; /* שינוי כאן למרכוז הכפתורים */
+}
+
+.card-actions button {
+    background-color:  #d87093;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.card-actions button:hover {
+    background-color: #e6a1b8;
+}
+
+.recipe-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-image {
+    max-width: 80%; /* הגדר רוחב מקסימלי */
+    max-height: 70%; /* הגדר גובה מקסימלי */
+    width: auto; /* שמור על יחס הממדים */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.detail-item b {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+}
+
+.instructions-title,
+.ingredients-title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1.1em;
+    text-align: start; /* יישור לימין בגלל RTL */
+}
+
+.instructions {
+    white-space: pre-line;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    line-height: 1.6;
+    text-align: start; /* יישור לימין בגלל RTL */
+}
+
+.ingredients-list {
+    padding-right: 20px; /* ריווח כדי שהנקודות לא יהיו צמודות */
+    list-style-type: none;
+}
+
+.ingredients-list p {
+    margin-bottom: 5px;
+    line-height: 1.6;
+    text-align: end; /* יישור לימין */
+}

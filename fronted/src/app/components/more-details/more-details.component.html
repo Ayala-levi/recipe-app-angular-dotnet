@@ -1,0 +1,35 @@
+<div class="recipe-details-card">
+    <h2 class="card-title">{{ recipe.name }}</h2>
+    <div class="card-actions">
+        <button (click)="downloadRecipeAsTxt()">הורד מתכון</button>
+        <button (click)="printRecipe()">הדפס מתכון</button>
+        <button (click)="shareRecipe()">שתף מתכון</button>
+        <button (click)="copyRecipe()">העתק מתכון</button>
+    </div>
+    <div class="recipe-image-container">
+        <img [src]="'https://localhost:7062' +recipe.imageUrl" alt="תמונה של {{ recipe.name }}" class="recipe-image">
+    </div>
+    <div class="card-content">
+        <div class="detail-item"><b>תיאור:</b> {{ recipe.description }}</div>
+        <div class="detail-item"><b>רמת קושי:</b> {{ recipe.difficultyLevel }}</div>
+        <div class="detail-item"><b>זמן הכנה:</b> {{ recipe.preparationTime }} דקות</div>
+        <div class="detail-item"><b>מנות:</b> {{ recipe.servings }}</div>
+
+        <div class="ingredients-column">
+            <p class="ingredients-title"><b>רכיבים:</b></p>
+            <ul class="ingredients-list">
+                @for(i of listIngredient;track $index){
+                <li>{{i.quantity}} {{i.ingredient.ingredientName}}</li>
+                }
+            </ul>
+        </div>
+
+        <div class="instructions-column">
+            <p class="instructions-title"><b>הוראות:</b></p>
+            <p class="instructions">{{ recipe.instructions }}</p>
+        </div>
+
+        <div class="detail-item"><b>מזהה:</b> {{ recipe.recipeId }}</div>
+        <div class="detail-item"><b>מזהה משתמש:</b> {{ recipe.userId }}</div>
+    </div>
+</div>

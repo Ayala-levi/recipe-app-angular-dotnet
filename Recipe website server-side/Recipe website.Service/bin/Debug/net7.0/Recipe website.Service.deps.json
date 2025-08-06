@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Recipe website.Service/1.0.0": {
+        "runtime": {
+          "Recipe website.Service.dll": {}
+        }
+      },
+      "Recipe website.Core/1.0.0": {
+        "runtime": {
+          "Recipe website.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Recipe website.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Recipe website.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

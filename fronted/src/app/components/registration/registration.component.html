@@ -1,0 +1,11 @@
+<div class="registration-card">
+  <label for="firstName">שם פרטי:</label>
+  <input type="text" id="firstName" placeholder="הכנס שם פרטי" [(ngModel)]="user.firstName" name="firstName">
+  <label for="lastName">שם משפחה:</label>
+  <input type="text" id="lastName" placeholder="הכנס שם משפחה" [(ngModel)]="user.lastName" name="lastName">
+  <label for="email">אימייל:</label>
+  <input type="text" id="email" placeholder="הכנס אימייל" [(ngModel)]="user.email" name="email">
+  <label for="passwordHash">סיסמה:</label>
+  <input type="text" id="passwordHash" placeholder="הכנס סיסמה" [(ngModel)]="user.passwordHash" name="passwordHash">
+  <button (click)="toRegister()">הרשם</button>
+</div>

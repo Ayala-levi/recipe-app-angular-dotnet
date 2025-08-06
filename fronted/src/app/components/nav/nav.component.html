@@ -1,0 +1,30 @@
+<ul class="nav nav-tabs">
+   <li class="nav-item">
+    <img class="imgLi" src="images/logo.png" alt="">
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/home page">דף הבית</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/about">אודות</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/login">התחברות</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/registration">הרשמה</a>
+  </li>
+
+  @if(isConnect()){
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/add recpie">הוספת מתכון</a>
+  </li>
+  }
+  <li class="nav-item">
+    <a id="disabled" class="nav-link disabled" routerLink="#">{{getUserName() | uppercase }}</a>
+  </li>
+
+</ul>

@@ -1,0 +1,17 @@
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Data.deps.json
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Data.runtimeconfig.json
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Data.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Data.pdb
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.csproj.AssemblyReference.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.AssemblyInfoInputs.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.AssemblyInfo.cs
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\refint\Recipe website.Data.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.pdb
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.genruntimeconfig.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\ref\Recipe website.Data.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Core.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\bin\Debug\net7.0\Recipe website.Core.pdb
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Data\obj\Debug\net7.0\Recipe website.Data.csproj.CopyComplete

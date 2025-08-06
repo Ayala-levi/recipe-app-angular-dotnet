@@ -1,0 +1,11 @@
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\bin\Debug\net7.0\Recipe website.Core.deps.json
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\bin\Debug\net7.0\Recipe website.Core.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\bin\Debug\net7.0\Recipe website.Core.pdb
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.AssemblyInfoInputs.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.AssemblyInfo.cs
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\refint\Recipe website.Core.dll
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\Recipe website.Core.pdb
+C:\Users\משתמש\Desktop\פרוייקט מתכונים\צד שרת-C#\Recipe website server-side\Recipe website.Core\obj\Debug\net7.0\ref\Recipe website.Core.dll

@@ -1,0 +1,80 @@
+<div class="add-recipe-container">
+  <h2>הוספת מתכון חדש</h2>
+
+  <form class="recipe-form">
+    <div class="form-group">
+      <label for="recipeName">שם מתכון:</label>
+      <input type="text" id="recipeName" placeholder="לדוגמה: עוגת שוקולד עשירה" [(ngModel)]="recipe.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="description">תיאור קצר:</label>
+      <input type="text" id="description" placeholder="כמה מילים על המתכון..." [(ngModel)]="recipe.description"
+        name="description">
+    </div>
+
+    <div class="form-group">
+      <label for="imageFile">בחר תמונה:</label>
+      <input type="file" (change)="onFileSelected($event)">
+    </div>
+
+    <div class="form-row">
+      <div class="form-group half-width">
+        <label for="preparationTime">משך זמן (בדקות):</label>
+        <input type="number" id="preparationTime" placeholder="לדוגמה: 45" [(ngModel)]="recipe.preparationTime"
+          name="preparationTime">
+      </div>
+
+      <div class="form-group half-width">
+        <label for="servings">מספר מנות:</label>
+        <input type="number" id="servings" placeholder="לדוגמה: 6" [(ngModel)]="recipe.servings" name="servings">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="difficultyLevel">רמת קושי:</label>
+      <select id="difficultyLevel" [(ngModel)]="recipe.difficultyLevel" name="difficultyLevel">
+        <option value="" disabled selected hidden>בחר רמת קושי</option>
+        <option value="קל">קל</option>
+        <option value="בינוני">בינוני</option>
+        <option value="קשה">קשה</option>
+      </select>
+    </div>
+
+    <h5>הוספת רכיבים למתכון:</h5>
+    <div class="form-group">
+      <label for="ingredient">בחר רכיב:</label>
+      <select id="ingredient" [(ngModel)]="currentIngredientId" name="currentIngredientId"
+        (change)="onIngredientSelect()">
+        <option value="" disabled selected hidden>בחר רכיב מהרשימה</option>
+        @for(i of this.ingredientsList;track $index){
+        <option [value]="i.ingredientId">{{i.ingredientName}}</option>
+        }
+        <option [value]="-1">אחר</option>
+      </select>
+    </div>
+
+    @if (this.isOtherSelected==true) {
+    <div class="form-group">
+      <label for="newIngredientName">שם רכיב חדש:</label>
+      <input type="text" id="newIngredientName" placeholder="הכנס שם רכיב חדש" [(ngModel)]="newIngredientName"
+        name="newIngredientName">
+      <button type="button" (click)="addNewIngredient()">הוסף רכיב חדש</button>
+    </div>
+    }
+    <div class="form-group">
+      <label for="currentQuantity">כמות:</label>
+      <input type="text" placeholder="הכנס כמות" [(ngModel)]="currentQuantity" name="currentQuantity">
+    </div>
+
+    <button type="button" (click)="addIngredientToList()">הוסף את הרכיב למתכון</button>
+
+    <div class="form-group">
+      <label for="instructions">הוראות הכנה מלאות:</label>
+      <textarea id="instructions" placeholder="פרט את שלבי ההכנה..." [(ngModel)]="recipe.instructions"
+        name="instructions"></textarea>
+    </div>
+
+    <button type="submit" class="submit-button" (click)="saveRecipe()">שמור מתכון</button>
+  </form>
+</div>
